@@ -40,10 +40,13 @@ header:nth-of-type(2){
 	max-width: 1192px;
 	padding: 0 20px;
 	border: 1px solid black;
+	clear: both;
 }
 .latest{
 	width: 25%;
-	height: 227px;
+	/*height: 227px;*/
+	max-height: 227px;
+	height: 20vw;
 	padding: 12px;
 	border: 1px solid black;
 	display: inline-block;
@@ -62,7 +65,9 @@ header:nth-of-type(2){
 	border: 1px solid black;
 }
 .col3 article:first-of-type{
-	height: 275px;
+	/*height: 275px;*/
+	height: 24.5vw;
+	max-height: 275px;
 }
 .col3 article:nth-of-type(2){
 	height: 96px;
@@ -87,4 +92,41 @@ header:nth-of-type(2){
 	height: 20px;
 	background-color: rgb(200,230,230);
 	border: 1px solid black;
+}
+#test{
+	height: 100vw;
+}
+/* Chenging layout for 1024px screen */
+@media screen and (max-width: 1024px) {
+	.latest{
+		width: 33.33%;
+	}
+	.col3{
+		width: 50%;
+	}
+	.col3 article:first-of-type{
+		height: 100vw;
+	}
+}
+/* Chenging layout for 768px screen */
+@media screen and (max-width: 768px) {
+	header:first-of-type{
+		display: none;
+	}
+	.featured article, .featured article:first-of-type{
+		width: 100%;
+		height: 30vw;
+		display: block;
+	}
+	.latest{
+		clear: both;
+		height: 72px;
+		width: 100%;
+		display: block;
+		padding: 8px;
+	}
+	.col3{
+		width: 100%;
+		display: block;
+	}
 }
