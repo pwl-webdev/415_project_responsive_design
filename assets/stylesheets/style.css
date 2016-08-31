@@ -194,6 +194,10 @@ header:nth-of-type(2){
 	font-size: 28px;
 	line-height: 30px;
 }
+.cover_title_3{
+	font-size: 20px;
+	line-height: 22px;
+}
 .cover_byline{
 	font-family: "ARS Maquette";
 	font-size: 13px;
@@ -226,6 +230,25 @@ header:nth-of-type(2){
 #art_3{
 	background: url(../images/3_article.jpg);
 	background-size: 100% 100%;
+}
+#art_4{
+	background: url(../images/new_art_2.png);
+	background-size: 100% 100%;
+}
+#art_5{
+	background: url(../images/popular_3.jpg);
+	background-size: 100% 100%;
+}
+#art_6{
+	background: url(../images/3_article.jpg);
+	background-size: 100% 100%;
+}
+.art_7{
+	background: url(../images/new_art_4.jpg);
+	background-size: 100% 100%;
+	height: 96px;
+	width: 96px;
+	float: right;
 }
 .news{
 	margin: 0 auto;
@@ -297,6 +320,24 @@ h6{
 .col3 article:nth-of-type(2){
 	height: 96px;
 }
+.small_category, .small_title{
+	margin-top: 10px;
+	float: left;
+	width: 70%;
+	color: rgb(255,68,34);
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 0.516667px;
+	line-height: 20px;
+	font-family: "Shentox";
+}
+.small_title{
+	margin: 0;
+	font-family: "ARS Maquette";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+}
 .footer-quote{
 	padding: 3em 0;
 	width: 100%;
@@ -365,6 +406,10 @@ h6{
 		font-size: 20px;
 		line-height: 22px;
 	}
+	.cover_title_3{
+	font-size: 20px;
+	line-height: 22px;
+	}
 	.cover_category, .cover_byline{
 		line-height: 21px;
 	}
@@ -381,7 +426,8 @@ h6{
 	}
 	.latest{
 		clear: both;
-		height: 72px;
+		/*height: 72px;*/
+		height: auto;
 		width: 100%;
 		display: block;
 		padding: 8px;
@@ -428,9 +474,13 @@ h6{
 		font-size: 20px;
 		line-height: 22px;
 	}
+	.cover_title_3{
+		font-size: 20px;
+		line-height: 22px;
+	}
 	.latest img{
 		width: 72px;
-		height: 100%;
+		height: 72px;
 		margin: 0;
 		margin-right: 20px;
 		float: left;
