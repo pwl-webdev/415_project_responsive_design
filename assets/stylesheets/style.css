@@ -29,7 +29,7 @@
 }
 body, html{
 	width: 100%;
-	background-color: rgb(245,245,245);
+	background-color: rgb(252,252,252);
 }
 
 header:first-of-type{
@@ -124,7 +124,7 @@ header:nth-of-type(2){
 	position: relative;
 	padding: 4px;
 	float: right;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin: 0;
 }
 .featured article:first-of-type{
@@ -175,7 +175,7 @@ header:nth-of-type(2){
 	left: 2%;
 	width: 95%;
 	color: white;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 }
 .cover_category{
 	font-family: "ARS Maquette";
@@ -250,11 +250,25 @@ header:nth-of-type(2){
 	width: 96px;
 	float: right;
 }
+.art_8{
+	background: url(../images/section_8.jpg);
+	background-size: 100% 100%;
+	height: 96px;
+	width: 96px;
+	float: right;
+}
+.art_9{
+	background: url(../images/2_article.jpg);
+	background-size: 100% 100%;
+	height: 96px;
+	width: 96px;
+	float: right;
+}
 .news{
 	margin: 0 auto;
 	max-width: 1192px;
 	padding: 0 20px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	clear: both;
 	display:block;
 }
@@ -267,10 +281,10 @@ header:nth-of-type(2){
 	height: 27.5vh;
 	padding: 12px;
 	float: left;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: inline-block;
 	/*background-color: rgb(200,230,200);*/
-	/*(margin: 0;*/
+	/*margin: 0;*/
 }
 .latest img{
 	width: 100%;
@@ -304,26 +318,34 @@ h6{
 .col3{
 	width: 33.33333%;
 	display: inline-block;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+	vertical-align: top;
+	padding: 0 12px;
 }
 .col3 article{
 	width: 100%;
-	height: 51px;
-	background-color: rgb(200,200,230);
-	border: 1px solid black;
+	/*height: 51px;*/
+	/*background-color: rgb(200,200,230);*/
+	border-bottom: 1px solid rgb(170,170,170);
+	overflow: auto;
+
 }
 .col3 article:first-of-type{
 	/*height: 275px;*/
 	height: 24.5vw;
 	max-height: 275px;
+	border: none;
 }
 .col3 article:nth-of-type(2){
-	height: 96px;
+	border: none;
+	height: auto;
+	min-height: 96px;
+	background-color: rgba(255, 68, 34, 0.06);
 }
 .small_category, .small_title{
 	margin-top: 10px;
 	float: left;
-	width: 70%;
+	width: 65%;
 	color: rgb(255,68,34);
 	font-size: 13px;
 	font-weight: 500;
@@ -338,28 +360,192 @@ h6{
 	font-weight: 700;
 	line-height: 18px;
 }
+.smallest_title, .punctuation_small{
+	font-family: "ARS Maquette";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+	/*color: black;*/
+	/*border: 1px solid green;*/
+	vertical-align: middle;
+	float: left;
+	color: rgb(100,100,100);
+}
+.punctuation_small{
+	color: rgb(255,68,34);
+	font-size: 8px;
+	margin-right: 5px;
+}
 .footer-quote{
 	padding: 3em 0;
 	width: 100%;
-	height: 198px;
-	border: 1px solid black;
-	background-color: rgb(230,200,200);
+	height: 280px;
+	/*border: 1px solid black;*/
+	background-color: rgb(246,246,246);
+}
+#footer_author{
+	color: rgb(85,85,85);
+	font-family: "Shentox";
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.566667px;
+	line-height: 21px;
+	text-align: center;
+	max-width: 1192px;
+	margin: 0 auto;
+	/*margin-top: 28px;*/
+}
+#footer_citation{
+	color: rgb(255,68,34);
+	font-family: "Avalon";
+	font-size: 56px;
+	font-weight: 700;
+	letter-spacing: -1.4px;
+	text-align: center;
+	margin: 0 auto 28px auto ;
+	max-width: 1192px;
+}
+#twitter_button{
+	/*border: 1px solid orange;*/
+	width: 81px;
+	height: 33px;
+	padding: 4px 8px;
+	border: 2px solid rgb(170,170,170);
+	color: rgb(170,170,170);
+	border-radius: 3px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	font-family: "ARS Maquette";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+#tw_button{
+	width: 16px;
+	height: 16px;
+	background-image: url("../images/icons.svg");
+	background-position: 0 -208px;
+	background-size: 48px 352px;
+	line-height: 21px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0 5px 5px 0;
 }
 .footer-links{
 	padding: 3em 0 2em;
 	width: 100%;
-	height: 281px;
-	background-color: rgb(230,230,200);
-	border: 1px solid black;
+	height: 160px;
+	background-color: rgb(19,19,19);
+	/*border: 1px solid black;*/
+}
+.footer_nav, .footer_social{
+	margin: 0 auto;
+	display: block;
+	/*border: 1px solid red;*/
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+.footer_nav{
+	margin-top: 21px;
+}
+.fl{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: rgb(51,51,51);
+	display: inline-block;
+	margin: 0 8px;
+}
+.fl_facebook{
+	width: 16px;
+	height: 16px;
+	background-position:-32px -176px;
+	background-image: url("../images/icons.svg");
+	background-size: 48px 352px;
+	position: relative;
+	top: 29%;
+	left: 29%;
+}
+.fl_twitter{
+	width: 16px;
+	height: 16px;
+	background-position:-32px -208px;
+	background-image: url("../images/icons.svg");
+	background-size: 48px 352px;
+	position: relative;
+	top: 29%;
+	left: 29%;
+}
+.fl_youtube{
+	width: 16px;
+	height: 16px;
+	background-position:-32px -240px;
+	background-image: url("../images/icons.svg");
+	background-size: 48px 352px;
+	position: relative;
+	top: 29%;
+	left: 29%;
+}
+.fl_instagram{
+	width: 16px;
+	height: 16px;
+	background-position:-32px -256px;
+	background-image: url("../images/icons.svg");
+	background-size: 48px 352px;
+	position: relative;
+	top: 29%;
+	left: 29%;
+}
+.fl_pinterest{
+	width: 16px;
+	height: 16px;
+	background-position:-32px -272px;
+	background-image: url("../images/icons.svg");
+	background-size: 48px 352px;
+	position: relative;
+	top: 29%;
+	left: 29%;
+}
+.fl_rss{
+	width: 16px;
+	height: 16px;
+	background-position:-32px -160px;
+	background-image: url("../images/icons.svg");
+	background-size: 48px 352px;
+	position: relative;
+	top: 29%;
+	left: 29%;
+}
+.fl_mail{
+	width: 16px;
+	height: 16px;
+	background-position:-32px -48px;
+	background-image: url("../images/icons.svg");
+	background-size: 48px 352px;
+	position: relative;
+	top: 29%;
+	left: 29%;
 }
 .footer-legal{
 	padding: 3em 0;
 	width: 100%;
 	height: 98px;
-	background-color: rgb(200,230,230);
-	border: 1px solid black;
+	background-color: rgb(0,0,0);
+	/*border: 1px solid black;*/
 }
-
+.fl2{
+	color: rgb(170,170,170);
+	font-family: "Shentox";
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: center;
+	margin: 0 4px;
+	text-decoration: none;
+}
 #main_logo, #icon_shorter, #main_logo_small, .icon_mob{
 	display:none;
 }
@@ -413,6 +599,13 @@ h6{
 	.cover_category, .cover_byline{
 		line-height: 21px;
 	}
+	.footer-quote{
+		/*height: 200px;*/
+		height: auto;
+	}
+	#footer_citation{
+		font-size: 40px;
+	}
 }
 /* Changing layout for 768px screen */
 @media screen and (max-width: 768px) {
@@ -438,7 +631,7 @@ h6{
 		display: block;
 	}
 	.col3 article{
-		height: 32px;
+		/*height: 32px;*/
 	}
 	.col3 article:first-of-type{
 		height: 69vw;
@@ -493,5 +686,18 @@ h6{
 	h6{
 		font-size: 12px;
 		line-height: 14px;
+	}
+	.small_category, .small_title{
+		width: 60%;
+		line-height: 16px;
+	}
+	.footer-quote{
+		height: auto;
+	}
+	#footer_citation{
+		font-size: 22px;
+	}
+	.fl{
+		margin: 0 1px;
 	}
 }
