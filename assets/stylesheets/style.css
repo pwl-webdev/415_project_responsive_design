@@ -3,25 +3,25 @@
   font-family: "ARS Maquette";
   font-style: normal;
   font-weight: 400;
-  src: url("http://cdn1.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.eot?#iefix") format("embedded-opentype"), url("http://cdn2.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.woff") format("woff"), url("http://cdn3.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.ttf") format("truetype");
+  src: url("https://cdn1.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.eot?#iefix") format("embedded-opentype"), url("https://cdn2.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.woff") format("woff"), url("http://cdn3.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Shentox";
   font-style: normal;
   font-weight: 500;
-  src: url("http://cdn1.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.eot?#iefix") format("embedded-opentype"), url("http://cdn2.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.woff2") format("woff2"), url("http://cdn3.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.woff") format("woff"), url("http://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.ttf") format("truetype");
+  src: url("https://cdn1.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.eot?#iefix") format("embedded-opentype"), url("https://cdn2.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.woff2") format("woff2"), url("http://cdn3.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.woff") format("woff"), url("http://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/shentox-medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "Avalon";
   font-style: normal;
   font-weight: 700;
-  src: url("http://cdn1.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/avalon-bold.eot?#iefix") format("embedded-opentype"), url("http://cdn2.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/avalon-bold.woff") format("woff"), url("http://cdn3.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/avalon-bold.ttf") format("truetype");
+  src: url("https://cdn1.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/avalon-bold.eot?#iefix") format("embedded-opentype"), url("https://cdn2.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/avalon-bold.woff") format("woff"), url("http://cdn3.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/avalon-bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "ARS Maquette";
   font-style: normal;
   font-weight: 700;
-  src: url("http://cdn1.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.eot?#iefix") format("embedded-opentype"), url("http://cdn2.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.woff") format("woff"), url("http://cdn3.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.ttf") format("truetype");
+  src: url("https://cdn1.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.eot?#iefix") format("embedded-opentype"), url("https://cdn2.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.woff") format("woff"), url("http://cdn3.tnwcdn.com/wp-content/themes/cyberdelia/assets/fonts/ars-maquette-bold-alt.ttf") format("truetype");
 }
 /* Body */
 *{
